@@ -1,0 +1,6 @@
+endpoint: https://eu1.prisma.sh/matcha-a0ec5d/ems-tracker/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ./generated/prisma-client/
